@@ -2,20 +2,17 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <!-- add meta to prevent IE9+ from rendering page in IE7 mode -->
-    <meta http-equiv="X-UA-Compatible" content="IE=100">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Accessible University Demo Site - Inaccessible Version</title>
     <link rel="icon" href="images/favicon.ico" type="image/x-icon">
     <link href="styles/main.css" rel="stylesheet">
     <link href="styles/before-main.css" rel="stylesheet">
     <link href="styles/before-menu.css" rel="stylesheet">
     <link href="styles/before-form.css" rel="stylesheet">
-    <link href="styles/before-modal.css" rel="stylesheet">
     <link href="styles/before-carousel.css" rel="stylesheet">
     <script src="scripts/jquery-1.11.3.min.js"></script>
     <script src="scripts/before-menu.js"></script>
     <script src="scripts/before-form.js"></script>
-    <script src="scripts/before-modal.js"></script>
     <script src="scripts/before-carousel.js"></script>
 </head>
 <body>
@@ -122,9 +119,8 @@
 
             <div class="heading">Can you spot the barriers?</div>
             <p>
-                There are at least 18 accessibility issues on this page.
+                There are at least 19 accessibility issues on this page.
                 To see a list of all known issues, <a href="issues.html">click here</a>.
-                For a cheat sheet of accessibility issues, <a href="cheatsheet.html">click here</a>.
             </p>
 
             <img class="hr" src="images/line_gradient.gif" alt="horizontal line graphic">
@@ -281,33 +277,6 @@
         </div>
 
     </div><!--end #content-->
-    <!--containers for displaying modal content-->
-    <div id="modalMask"></div>
-    <div id="modalContent">
-        <div class="modalHeading">Eighteen Accessibility Issues</div>
-        <button type="button" id="modalXButton">x</button>
-        <ol>
-            <li>No headings</li>
-            <li>No alternate text on informative images</li>
-            <li>Missing or excessive alternate text on decorative images</li>
-            <li>Insufficient color contrast</li>
-            <li>Inaccessible dropdown menu</li>
-            <li>Insufficient visual cues</li>
-            <li>Redundant, uninformative link text</li>
-            <li>Color used to communicate information</li>
-            <li>Language not specified</li>
-            <li>Missing accessible form markup</li>
-            <li>Inaccessible CAPTCHA</li>
-            <li>Inaccessible validation</li>
-            <li>Missing ARIA landmark roles</li>
-            <li>Inaccessible modal window</li>
-            <li>Inaccessible carousel</li>
-            <li>Missing accessible table markup</li>
-            <li>Missing abbreviation tags</li>
-            <li>HTML fails validation</li>
-        </ol>
-        <button type="button" id="modalOkButton">OK</button>
-    </div>
 
 </body>
 </html>
