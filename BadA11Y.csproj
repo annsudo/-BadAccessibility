@@ -77,17 +77,14 @@
     <Content Include="images\slide1.jpg" />
     <Content Include="images\slide2.jpg" />
     <Content Include="images\slide3.jpg" />
-    <Content Include="issues.html" />
-    <Content Include="scripts\before-carousel.js" />
-    <Content Include="scripts\before-form.js" />
-    <Content Include="scripts\before-menu.js" />
-    <Content Include="scripts\before-modal.js" />
+    <Content Include="scripts\carousel.js" />
+    <Content Include="scripts\form.js" />
+    <Content Include="scripts\menu.js" />
     <Content Include="scripts\jquery-1.11.3.min.js" />
-    <Content Include="styles\before-carousel.css" />
-    <Content Include="styles\before-form.css" />
-    <Content Include="styles\before-main.css" />
-    <Content Include="styles\before-menu.css" />
-    <Content Include="styles\before-modal.css" />
+    <Content Include="styles\carousel.css" />
+    <Content Include="styles\form.css" />
+    <Content Include="styles\bad-main.css" />
+    <Content Include="styles\menu.css" />
     <Content Include="styles\main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -95,6 +92,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AcessiblityWorkSheet.docx" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
